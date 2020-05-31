@@ -9,16 +9,18 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
+        {{-- Header section --}}
         <div class="header-component">
             <header-component></header-component>
         </div>
+        {{-- Main content section --}}
         <main class="side-main">
             @yield('content')
         </main>
+        {{-- footer section --}}
         <div class="footer-wrapper" style="position:relative:top:-80px;">
             <section class="section call-to-action is-primary has-text-centered">
                 <footer-cta-component></footer-cta-component>   
