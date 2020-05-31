@@ -1,12 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Apis;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Category;
 
-class CategoryController extends Controller
+class ArticleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,12 +13,17 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        
-        $categories = Category::latest()->get();
+        //
+    }
 
-        return response()->json([
-           "categories" => $categories
-        ],200);
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
     }
 
     /**
@@ -41,6 +44,17 @@ class CategoryController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
     {
         //
     }
