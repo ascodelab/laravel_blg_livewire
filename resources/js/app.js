@@ -38,6 +38,9 @@ Vue.component('footer-component', require('./components/FooterComponent.vue').de
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+// blog related components
+Vue.component('render-article-component', require('./components/ArticleRenderComponent.vue').default);
+
 
 const app = new Vue({
     el: '#app',

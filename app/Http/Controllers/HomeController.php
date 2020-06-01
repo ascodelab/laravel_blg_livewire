@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except(['test']);
+        $this->middleware('auth')->except(['test','blog']);
     }
 
     /**
@@ -28,5 +28,9 @@ class HomeController extends Controller
     public function test()
     {
         return view('frontend.index');
+    }
+    public function blog()
+    {
+        return view('frontend.blog');
     }
 }

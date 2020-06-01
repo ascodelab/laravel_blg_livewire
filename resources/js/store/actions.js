@@ -9,5 +9,16 @@ export const actions = {
                 console.log("Error..!")  
              });
      },
+     // get article data
+     fetchArticleData:(context)=>{
+      axios.get("api/article")
+           .then((response)=>{
+              console.log(response.data.article)
+              context.commit("article",response.data.article) //categories will be run from mutation
+           })
+           .catch(()=>{ 
+              console.log("Error..!")  
+           });
+   },
      // add new functions here
 }

@@ -21,6 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 //Noauth routes
 Route::apiResources(
 	[
-		'category' => 'Apis\CategoryController'
+		'category' => 'Apis\CategoryController',
+		'article' => 'Apis\ArticleController'
 	]
 );

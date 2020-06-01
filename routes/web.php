@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test','HomeController@test');
+Route::get('/blog','HomeController@blog');
 
 
 //////////////////////// Auth Routes ///////////////////////

@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Apis;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Article;
 
 class ArticleController extends Controller
 {
@@ -13,7 +15,13 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        //
+        
+        $article = Article::find(12);
+
+        return response()->json([
+            "article" => $article 
+         ],200);
+        
     }
 
     /**
