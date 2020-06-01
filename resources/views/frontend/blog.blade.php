@@ -2,9 +2,8 @@
 
 @section('content')
     <div class="component-wrapper">
-        <banner-component></banner-component>
-    </div>
-    <div>
-         <render-article-component></render-article-component>
+        <page-header-component></page-header-component>
+        <div style="height:50px;"></div>
+        <article-list-component></article-list-component>
     </div>
 @endsection

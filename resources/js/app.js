@@ -25,7 +25,6 @@ const store = new Vuex.Store(
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('header-component', require('./components/HeaderComponent.vue').default);
 Vue.component('banner-component', require('./components/BannerComponent.vue').default);
 Vue.component('features-component', require('./components/FeaturesComponent.vue').default);
@@ -39,6 +38,8 @@ Vue.component('footer-component', require('./components/FooterComponent.vue').de
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 // blog related components
+Vue.component('page-header-component', require('./components/pages/PageHeaderComponent.vue').default);
+Vue.component('article-list-component', require('./components/pages/ArticleListComponent.vue').default);
 Vue.component('render-article-component', require('./components/ArticleRenderComponent.vue').default);
 
 
