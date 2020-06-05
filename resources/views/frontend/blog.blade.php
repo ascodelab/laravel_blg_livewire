@@ -3,7 +3,7 @@
 @section('content')
     <div class="component-wrapper">
         <page-header-component></page-header-component>
-        <div style="height:50px;"></div>
+        <div class="space-50"></div>
         <article-list-component></article-list-component>
     </div>
 @endsection

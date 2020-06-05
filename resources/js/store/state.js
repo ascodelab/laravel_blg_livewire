@@ -1,5 +1,5 @@
 export const state = {
-    pageTitle:"All Blogs",
+    pageTitle:"[ All Blogs ]",
     category: [],
     article:null, 
  };

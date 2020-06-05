@@ -16,22 +16,17 @@
                                   <ul class="blog_meta list">
                                       <li>
                                           <a href="#">Mark wiens
-                                              <i class="lnr lnr-user"></i>
+                                              <i class="fas fa-user"></i>
                                           </a>
                                       </li>
                                       <li>
                                           <a href="#">12 Dec, 2017
-                                              <i class="lnr lnr-calendar-full"></i>
+                                              <i class="fas fa-calendar"></i>
                                           </a>
                                       </li>
                                       <li>
-                                          <a href="#">1.2M Views
-                                              <i class="lnr lnr-eye"></i>
-                                          </a>
-                                      </li>
-                                      <li>
-                                          <a href="#">06 Comments
-                                              <i class="lnr lnr-bubble"></i>
+                                          <a href="#">Backend 
+                                              <i class="fas fa-list-alt"></i>
                                           </a>
                                       </li>
                                   </ul>
@@ -52,40 +47,6 @@
                               </div>
                           </div>
                       </article>
-                      
-                      <nav class="blog-pagination justify-content-center d-flex">
-                          <ul class="pagination">
-                              <li class="page-item">
-                                  <a href="#" class="page-link" aria-label="Previous">
-                                      <span aria-hidden="true">
-                                          <span class="lnr lnr-chevron-left"></span>
-                                      </span>
-                                  </a>
-                              </li>
-                              <li class="page-item">
-                                  <a href="#" class="page-link">01</a>
-                              </li>
-                              <li class="page-item active">
-                                  <a href="#" class="page-link">02</a>
-                              </li>
-                              <li class="page-item">
-                                  <a href="#" class="page-link">03</a>
-                              </li>
-                              <li class="page-item">
-                                  <a href="#" class="page-link">04</a>
-                              </li>
-                              <li class="page-item">
-                                  <a href="#" class="page-link">09</a>
-                              </li>
-                              <li class="page-item">
-                                  <a href="#" class="page-link" aria-label="Next">
-                                      <span aria-hidden="true">
-                                          <span class="lnr lnr-chevron-right"></span>
-                                      </span>
-                                  </a>
-                              </li>
-                          </ul>
-                      </nav>
                   </div>
               </div>
               <div class="col-lg-4">
@@ -103,26 +64,25 @@
                           <div class="br"></div>
                       </aside>
                       <aside class="single_sidebar_widget author_widget">
-                          <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
-                          <h4>Charlie Barber</h4>
-                          <p>Senior blog writer</p>
+                          <img class="author_img rounded-circle" src="https://s.gravatar.com/avatar/017c2f452a5b71e2bb49cd8932d42e74?s=80" alt="">
+                          <h4>Anil Sharma</h4>
+                          <p>Software Engineer</p>
                           <div class="social_icon">
-                              <a href="#">
+                              <a href="https://facebook.com/tyagibhai" target="_blank">
                                   <i class="fab fa-facebook-f"></i>
                               </a>
-                              <a href="#">
+                              <a href="https//twitter.com/realanilsharma" target="_blank">
                                   <i class="fab fa-twitter"></i>
                               </a>
-                              <a href="#">
+                              <a href="https://github.com/ascodelab">
                                   <i class="fab fa-github"></i>
                               </a>
-                              <a href="#">
-                                <i class="fab fa-behance"></i>
+                              <a href="https://www.linkedin.com/in/realanilsharma" target="_blank">
+                                <i class="fab fa-linkedin"></i>
                               </a>
                           </div>
-                          <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should
-                              have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits
-                              detractors.
+                          <p>
+                            Doing things that add value to your career and life.
                           </p>
                           <div class="br"></div>
                       </aside>
@@ -146,65 +106,11 @@
                                   <p>02 Hours ago</p>
                               </div>
                           </div>
-                          <div class="media post_item">
-                              <img src="img/blog/popular-post/post3.jpg" alt="post">
-                              <div class="media-body">
-                                  <a href="single-blog.html">
-                                      <h3>Astronomy Or Astrology</h3>
-                                  </a>
-                                  <p>03 Hours ago</p>
-                              </div>
-                          </div>
-                          <div class="media post_item">
-                              <img src="img/blog/popular-post/post4.jpg" alt="post">
-                              <div class="media-body">
-                                  <a href="single-blog.html">
-                                      <h3>Asteroids telescope</h3>
-                                  </a>
-                                  <p>01 Hours ago</p>
-                              </div>
-                          </div>
-                          <div class="br"></div>
-                      </aside>
-                      <aside class="single_sidebar_widget ads_widget">
-                          <a href="#">
-                              <img class="img-fluid" src="img/blog/add.jpg" alt="">
-                          </a>
                           <div class="br"></div>
                       </aside>
                       <aside class="single_sidebar_widget post_category_widget">
                           <h4 class="widget_title">Post Catgories</h4>
                           <ul class="list cat-list">
-                              <li>
-                                  <a href="#" class="d-flex justify-content-between">
-                                      <p>Technology</p>
-                                      <p>37</p>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#" class="d-flex justify-content-between">
-                                      <p>Lifestyle</p>
-                                      <p>24</p>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#" class="d-flex justify-content-between">
-                                      <p>Fashion</p>
-                                      <p>59</p>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#" class="d-flex justify-content-between">
-                                      <p>Art</p>
-                                      <p>29</p>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#" class="d-flex justify-content-between">
-                                      <p>Food</p>
-                                      <p>15</p>
-                                  </a>
-                              </li>
                               <li>
                                   <a href="#" class="d-flex justify-content-between">
                                       <p>Architecture</p>
@@ -216,68 +122,6 @@
                                       <p>Adventure</p>
                                       <p>44</p>
                                   </a>
-                              </li>
-                          </ul>
-                          <div class="br"></div>
-                      </aside>
-                      <aside class="single-sidebar-widget newsletter_widget">
-                          <h4 class="widget_title">Newsletter</h4>
-                          <p>
-                              Here, I focus on a range of items and features that we use in life without giving them a second thought.
-                          </p>
-                          <div class="form-group d-flex flex-row">
-                              <div class="input-group">
-                                  <div class="input-group-prepend">
-                                      <div class="input-group-text">
-                                          <i class="fa fa-envelope" aria-hidden="true"></i>
-                                      </div>
-                                  </div>
-                                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email address" onfocus="this.placeholder = ''"
-                                      onblur="this.placeholder = 'Enter email'">
-                              </div>
-                              <a href="#" class="bbtns">Subcribe</a>
-                          </div>
-                          <p class="text-bottom">You can unsubscribe at any time</p>
-                          <div class="br"></div>
-                      </aside>
-                      <aside class="single-sidebar-widget tag_cloud_widget">
-                          <h4 class="widget_title">Tag Clouds</h4>
-                          <ul class="list">
-                              <li>
-                                  <a href="#">Technology</a>
-                              </li>
-                              <li>
-                                  <a href="#">Fashion</a>
-                              </li>
-                              <li>
-                                  <a href="#">Architecture</a>
-                              </li>
-                              <li>
-                                  <a href="#">Fashion</a>
-                              </li>
-                              <li>
-                                  <a href="#">Food</a>
-                              </li>
-                              <li>
-                                  <a href="#">Technology</a>
-                              </li>
-                              <li>
-                                  <a href="#">Lifestyle</a>
-                              </li>
-                              <li>
-                                  <a href="#">Art</a>
-                              </li>
-                              <li>
-                                  <a href="#">Adventure</a>
-                              </li>
-                              <li>
-                                  <a href="#">Food</a>
-                              </li>
-                              <li>
-                                  <a href="#">Lifestyle</a>
-                              </li>
-                              <li>
-                                  <a href="#">Adventure</a>
                               </li>
                           </ul>
                       </aside>
@@ -294,7 +138,6 @@ export default {
       data() {
         return {}
       },
-      computed(){},
-      mounted() {},
+      
 };
 </script>

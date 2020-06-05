@@ -2452,169 +2452,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "BlogList",
   data: function data() {
     return {};
-  },
-  computed: function computed() {},
-  mounted: function mounted() {}
+  }
 });
 
 /***/ }),
@@ -2644,9 +2486,7 @@ __webpack_require__.r(__webpack_exports__);
     return {
       pagetitle: this.$store.state.pageTitle
     };
-  },
-  computed: function computed() {},
-  mounted: function mounted() {}
+  }
 });
 
 /***/ }),
@@ -39678,7 +39518,7 @@ var staticRenderFns = [
                           _vm._v(
                             "Mark wiens\n                                            "
                           ),
-                          _c("i", { staticClass: "lnr lnr-user" })
+                          _c("i", { staticClass: "fas fa-user" })
                         ])
                       ]),
                       _vm._v(" "),
@@ -39687,25 +39527,16 @@ var staticRenderFns = [
                           _vm._v(
                             "12 Dec, 2017\n                                            "
                           ),
-                          _c("i", { staticClass: "lnr lnr-calendar-full" })
+                          _c("i", { staticClass: "fas fa-calendar" })
                         ])
                       ]),
                       _vm._v(" "),
                       _c("li", [
                         _c("a", { attrs: { href: "#" } }, [
                           _vm._v(
-                            "1.2M Views\n                                            "
+                            "Backend \n                                            "
                           ),
-                          _c("i", { staticClass: "lnr lnr-eye" })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "#" } }, [
-                          _vm._v(
-                            "06 Comments\n                                            "
-                          ),
-                          _c("i", { staticClass: "lnr lnr-bubble" })
+                          _c("i", { staticClass: "fas fa-list-alt" })
                         ])
                       ])
                     ])
@@ -39745,87 +39576,7 @@ var staticRenderFns = [
                     ])
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c(
-                "nav",
-                {
-                  staticClass: "blog-pagination justify-content-center d-flex"
-                },
-                [
-                  _c("ul", { staticClass: "pagination" }, [
-                    _c("li", { staticClass: "page-item" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "page-link",
-                          attrs: { href: "#", "aria-label": "Previous" }
-                        },
-                        [
-                          _c("span", { attrs: { "aria-hidden": "true" } }, [
-                            _c("span", { staticClass: "lnr lnr-chevron-left" })
-                          ])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", { staticClass: "page-item" }, [
-                      _c(
-                        "a",
-                        { staticClass: "page-link", attrs: { href: "#" } },
-                        [_vm._v("01")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", { staticClass: "page-item active" }, [
-                      _c(
-                        "a",
-                        { staticClass: "page-link", attrs: { href: "#" } },
-                        [_vm._v("02")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", { staticClass: "page-item" }, [
-                      _c(
-                        "a",
-                        { staticClass: "page-link", attrs: { href: "#" } },
-                        [_vm._v("03")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", { staticClass: "page-item" }, [
-                      _c(
-                        "a",
-                        { staticClass: "page-link", attrs: { href: "#" } },
-                        [_vm._v("04")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", { staticClass: "page-item" }, [
-                      _c(
-                        "a",
-                        { staticClass: "page-link", attrs: { href: "#" } },
-                        [_vm._v("09")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", { staticClass: "page-item" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "page-link",
-                          attrs: { href: "#", "aria-label": "Next" }
-                        },
-                        [
-                          _c("span", { attrs: { "aria-hidden": "true" } }, [
-                            _c("span", { staticClass: "lnr lnr-chevron-right" })
-                          ])
-                        ]
-                      )
-                    ])
-                  ])
-                ]
-              )
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -39863,34 +39614,61 @@ var staticRenderFns = [
                 [
                   _c("img", {
                     staticClass: "author_img rounded-circle",
-                    attrs: { src: "img/blog/author.png", alt: "" }
+                    attrs: {
+                      src:
+                        "https://s.gravatar.com/avatar/017c2f452a5b71e2bb49cd8932d42e74?s=80",
+                      alt: ""
+                    }
                   }),
                   _vm._v(" "),
-                  _c("h4", [_vm._v("Charlie Barber")]),
+                  _c("h4", [_vm._v("Anil Sharma")]),
                   _vm._v(" "),
-                  _c("p", [_vm._v("Senior blog writer")]),
+                  _c("p", [_vm._v("Software Engineer")]),
                   _vm._v(" "),
                   _c("div", { staticClass: "social_icon" }, [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("i", { staticClass: "fab fa-facebook-f" })
-                    ]),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://facebook.com/tyagibhai",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("i", { staticClass: "fab fa-facebook-f" })]
+                    ),
                     _vm._v(" "),
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("i", { staticClass: "fab fa-twitter" })
-                    ]),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https//twitter.com/realanilsharma",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("i", { staticClass: "fab fa-twitter" })]
+                    ),
                     _vm._v(" "),
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("i", { staticClass: "fab fa-github" })
-                    ]),
+                    _c(
+                      "a",
+                      { attrs: { href: "https://github.com/ascodelab" } },
+                      [_c("i", { staticClass: "fab fa-github" })]
+                    ),
                     _vm._v(" "),
-                    _c("a", { attrs: { href: "#" } }, [
-                      _c("i", { staticClass: "fab fa-behance" })
-                    ])
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.linkedin.com/in/realanilsharma",
+                          target: "_blank"
+                        }
+                      },
+                      [_c("i", { staticClass: "fab fa-linkedin" })]
+                    )
                   ]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Boot camps have its supporters andit sdetractors. Some people do not understand why you should\n                            have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits\n                            detractors.\n                        "
+                      "\n                          Doing things that add value to your career and life.\n                        "
                     )
                   ]),
                   _vm._v(" "),
@@ -39940,54 +39718,9 @@ var staticRenderFns = [
                     ])
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "media post_item" }, [
-                    _c("img", {
-                      attrs: {
-                        src: "img/blog/popular-post/post3.jpg",
-                        alt: "post"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "media-body" }, [
-                      _c("a", { attrs: { href: "single-blog.html" } }, [
-                        _c("h3", [_vm._v("Astronomy Or Astrology")])
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("03 Hours ago")])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "media post_item" }, [
-                    _c("img", {
-                      attrs: {
-                        src: "img/blog/popular-post/post4.jpg",
-                        alt: "post"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "media-body" }, [
-                      _c("a", { attrs: { href: "single-blog.html" } }, [
-                        _c("h3", [_vm._v("Asteroids telescope")])
-                      ]),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("01 Hours ago")])
-                    ])
-                  ]),
-                  _vm._v(" "),
                   _c("div", { staticClass: "br" })
                 ]
               ),
-              _vm._v(" "),
-              _c("aside", { staticClass: "single_sidebar_widget ads_widget" }, [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "img/blog/add.jpg", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "br" })
-              ]),
               _vm._v(" "),
               _c(
                 "aside",
@@ -39998,81 +39731,6 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("ul", { staticClass: "list cat-list" }, [
-                    _c("li", [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "d-flex justify-content-between",
-                          attrs: { href: "#" }
-                        },
-                        [
-                          _c("p", [_vm._v("Technology")]),
-                          _vm._v(" "),
-                          _c("p", [_vm._v("37")])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "d-flex justify-content-between",
-                          attrs: { href: "#" }
-                        },
-                        [
-                          _c("p", [_vm._v("Lifestyle")]),
-                          _vm._v(" "),
-                          _c("p", [_vm._v("24")])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "d-flex justify-content-between",
-                          attrs: { href: "#" }
-                        },
-                        [
-                          _c("p", [_vm._v("Fashion")]),
-                          _vm._v(" "),
-                          _c("p", [_vm._v("59")])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "d-flex justify-content-between",
-                          attrs: { href: "#" }
-                        },
-                        [
-                          _c("p", [_vm._v("Art")]),
-                          _vm._v(" "),
-                          _c("p", [_vm._v("29")])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "d-flex justify-content-between",
-                          attrs: { href: "#" }
-                        },
-                        [
-                          _c("p", [_vm._v("Food")]),
-                          _vm._v(" "),
-                          _c("p", [_vm._v("15")])
-                        ]
-                      )
-                    ]),
-                    _vm._v(" "),
                     _c("li", [
                       _c(
                         "a",
@@ -40101,120 +39759,6 @@ var staticRenderFns = [
                           _c("p", [_vm._v("44")])
                         ]
                       )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "br" })
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "aside",
-                { staticClass: "single-sidebar-widget newsletter_widget" },
-                [
-                  _c("h4", { staticClass: "widget_title" }, [
-                    _vm._v("Newsletter")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "\n                            Here, I focus on a range of items and features that we use in life without giving them a second thought.\n                        "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-group d-flex flex-row" }, [
-                    _c("div", { staticClass: "input-group" }, [
-                      _c("div", { staticClass: "input-group-prepend" }, [
-                        _c("div", { staticClass: "input-group-text" }, [
-                          _c("i", {
-                            staticClass: "fa fa-envelope",
-                            attrs: { "aria-hidden": "true" }
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("input", {
-                        staticClass: "form-control",
-                        attrs: {
-                          type: "text",
-                          id: "inlineFormInputGroup",
-                          placeholder: "Enter email address",
-                          onfocus: "this.placeholder = ''",
-                          onblur: "this.placeholder = 'Enter email'"
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { staticClass: "bbtns", attrs: { href: "#" } }, [
-                      _vm._v("Subcribe")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "text-bottom" }, [
-                    _vm._v("You can unsubscribe at any time")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "br" })
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "aside",
-                { staticClass: "single-sidebar-widget tag_cloud_widget" },
-                [
-                  _c("h4", { staticClass: "widget_title" }, [
-                    _vm._v("Tag Clouds")
-                  ]),
-                  _vm._v(" "),
-                  _c("ul", { staticClass: "list" }, [
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Technology")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Fashion")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [
-                        _vm._v("Architecture")
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Fashion")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Food")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Technology")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Lifestyle")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Art")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Adventure")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Food")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Lifestyle")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("a", { attrs: { href: "#" } }, [_vm._v("Adventure")])
                     ])
                   ])
                 ]
@@ -54502,7 +54046,7 @@ var mutations = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "state", function() { return state; });
 var state = {
-  pageTitle: "All Blogs",
+  pageTitle: "[ All Blogs ]",
   category: [],
   article: null
 };

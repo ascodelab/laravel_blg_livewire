@@ -16,7 +16,5 @@ export default {
                  pagetitle:this.$store.state.pageTitle
                }
         },
-      computed(){},
-      mounted() {},
 };
 </script>
